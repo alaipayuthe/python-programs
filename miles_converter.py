@@ -6,7 +6,7 @@ There are 5280 feet in a mile. Write a Python statement that calculates and prin
 miles_in_feet = 5280
 
 # compute feet for 13 miles
-convert_13_miles_to_feet = 13 * 5280
+convert_13_miles_to_feet = 13 * miles_in_feet
 
 print("13 miles = " + str(convert_13_miles_to_feet))
 
