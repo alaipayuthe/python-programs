@@ -84,3 +84,35 @@ print(lst[:4])
 # Empty slices
 print(lst[20:25])
 print(lst[7:3])
+
+items = ['The', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+print(items.index('The'))
+
+#print(items.index('baby'))
+
+print("The" in items)
+print("baby" in items)
+print("The" not in items)
+print("baby" in items)
+#Counting item in list
+print(items.count("The"))
+
+print(items.count("baby"))
+
+#List iteration
+pets = ["cat", "dog", "ferret"]
+for animal in pets:
+    print(animal)
+
+numbers = [3, 8, -2, 4, 13]
+sumsq = 0
+
+for num in numbers:
+    square = num * num
+    sumsq += square
+    
+print(sumsq)
+
+length = len(numbers)
+for index in range(length):
+    print(numbers[index])
