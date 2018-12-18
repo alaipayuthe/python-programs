@@ -1,0 +1,8 @@
+openfile = open("sample.txt", "r+t")
+num_characters = openfile.write("Om Srikrishnaya Nama")
+print("File opened and written " + str(num_characters) + " characters")
+openfile.seek(0)
+print("Contents of the file are:")
+print(openfile.read())
+openfile.close()
+print("File closed")
